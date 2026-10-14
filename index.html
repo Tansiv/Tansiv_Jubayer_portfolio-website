@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="Explore the data science portfolio of Tansiv Jubayer, a Dhaka-based Data Analyst and Data Engineer with machine learning experience in Python, SQL, Power BI, ETL, predictive modeling, and AI projects.">
+  <meta property="og:title" content="Tansiv Jubayer | Data Analyst & Data Engineer">
+  <meta property="og:description" content="Data analysis, data engineering, machine learning, and AI automation by Tansiv Jubayer. Explore Python, SQL, Power BI, selected projects, and research.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tansiv.github.io/Tansiv_Jubayer_portfolio-website/">
+  <meta property="og:image" content="https://tansiv.github.io/Tansiv_Jubayer_portfolio-website/assets/my_photo.jpg">
+  <title>Tansiv Jubayer | Data Analyst & Data Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Tansiv Jubayer","jobTitle":"Data Analyst, Data Engineer, and Machine Learning Engineer","email":"mailto:jtansiv@gmail.com","url":"https://tansiv.github.io/Tansiv_Jubayer_portfolio-website/","sameAs":["https://github.com/Tansiv","https://www.linkedin.com/in/tansiv-jubayer/"]}
+  </script>
+  <script type="module">
+    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+    createChat({
+      webhookUrl: 'https://tansivjubayer.app.n8n.cloud/webhook/4ea8703f-f61d-4cc0-923b-b0fe93045159/chat',
+      initialMessages: ['Hi! I’m ThireenAI, your portfolio assistant. How may I help you?'],
+      i18n: {
+        en: {
+          title: 'ThireenAI',
+          subtitle: 'Projects, strategy, research, and collaboration.',
+          getStarted: 'Start a conversation',
+          inputPlaceholder: 'Ask about Tansiv’s work…'
+        }
+      }
+    });
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="pointer-glow" id="pointerGlow" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand brand-header" href="#home" aria-label="Tansiv Jubayer home">
+      <svg class="brand-monogram" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="logoGradient" x1="8" y1="7" x2="42" y2="43" gradientUnits="userSpaceOnUse"><stop stop-color="#a7ffcf"/><stop offset=".52" stop-color="#84cfff"/><stop offset="1" stop-color="#8a7dff"/></linearGradient></defs>
+        <rect x="1" y="1" width="46" height="46" rx="13" fill="#10131d" stroke="url(#logoGradient)" stroke-width="1.5"/>
+        <path d="M12 13.5h19M21.5 13.5v21" stroke="#f0f2f8" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M35.5 14v17.2c0 4.7-2.4 7.2-6.8 7.2-3.3 0-5.6-1.4-6.9-4.1" fill="none" stroke="url(#logoGradient)" stroke-width="4.5" stroke-linecap="round"/>
+        <circle cx="36" cy="13.2" r="2.2" fill="#a7ffcf"/>
+      </svg>
+      <span class="brand-identity">
+        <span class="brand-name">TANSIV JUBAYER</span>
+        <span class="brand-role">Data &middot; AI &middot; Research</span>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#research">Research</a><a href="#about">About</a><a href="#services">Services</a><a href="#skills">Capabilities</a>
+    </nav>
+    <div class="header-actions">
+      <button class="command-trigger" id="commandTrigger" type="button" aria-haspopup="dialog" aria-controls="commandPalette">Quick nav <kbd>Ctrl K</kbd></button>
+      <a class="button button-small button-outline header-cv" href="assets/Tansiv_Jubayer_CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+      <button class="icon-button" id="themeToggle" aria-label="Switch to light theme" aria-pressed="false" title="Switch theme"><span id="themeIcon">☼</span></button>
+      <a class="button button-small button-outline" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#work">Work <span>01</span></a><a href="#research">Research <span>02</span></a><a href="#about">About <span>03</span></a><a href="#services">Services <span>04</span></a><a href="#skills">Capabilities <span>05</span></a><a href="#contact">Contact <span>06</span></a>
+  </nav>
+
+  <dialog class="command-palette" id="commandPalette" aria-labelledby="commandTitle">
+    <div class="command-panel">
+      <div class="command-heading"><span id="commandTitle">Navigate portfolio</span><button class="command-close" type="button" id="commandClose" aria-label="Close quick navigation">&times;</button></div>
+      <label class="sr-only" for="commandInput">Search sections and links</label>
+      <input class="command-input" id="commandInput" type="search" autocomplete="off" placeholder="Search sections or links...">
+      <div class="command-list" id="commandList" role="listbox" aria-label="Navigation results"></div>
+      <p class="command-help"><span>Up / Down</span> choose <span>Enter</span> open <span>Esc</span> close</p>
+    </div>
+  </dialog>
+
+  <dialog class="case-study-dialog" id="caseStudyDialog" aria-labelledby="caseStudyTitle">
+    <article class="case-study-panel">
+      <div class="case-study-topline"><span id="caseStudyDiscipline"></span><button class="command-close" type="button" id="caseStudyClose" aria-label="Close case study">&times;</button></div>
+      <p class="case-study-index" id="caseStudyIndex"></p>
+      <h2 id="caseStudyTitle"></h2>
+      <p class="case-study-summary" id="caseStudySummary"></p>
+      <div class="case-study-body">
+        <section><h3>Challenge</h3><p id="caseStudyChallenge"></p></section>
+        <section><h3>Approach</h3><p id="caseStudyApproach"></p></section>
+        <section><h3>Outcome</h3><p id="caseStudyOutcome"></p></section>
+      </div>
+      <div class="case-study-tags" id="caseStudyTags"></div>
+      <a class="button button-primary case-study-link" id="caseStudyLink" target="_blank" rel="noreferrer">Open project <span aria-hidden="true">&#8599;</span></a>
+    </article>
+  </dialog>
+
+  <main id="main-content">
+    <section class="hero section-shell" id="home">
+      <figure class="hero-portrait reveal"><img src="assets/my_photo.jpg" width="384" height="384" loading="eager" decoding="async" fetchpriority="high" alt="Portrait of Tansiv Jubayer"><figcaption>DATA · AI · ENGINEERING</figcaption></figure>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR DATA & AI OPPORTUNITIES <span class="eyebrow-line"></span> DHAKA, BD</div>
+        <h1>Turning data<br>into <span class="gradient-text">what's next.</span></h1>
+        <p class="hero-lead">I’m Tansiv, a Data Analyst and Machine Learning Engineer with a data engineering focus. I build data pipelines, predictive models, and analytical workflows with Python and SQL, turning raw datasets into useful insights. Open to data analyst, data engineer, applied ML, AI automation, and software engineering opportunities.</p>
+        <div class="hero-cta">
+          <a class="button button-primary" href="#contact">Let’s work together <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
+          <a class="text-link resume-download" href="assets/Tansiv_Jubayer_CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-proof">
+          <div><strong>04</strong><span>Co-authored publications</span></div>
+          <i></i>
+          <div><strong>99K+</strong><span>Retail transactions analysed</span></div>
+          <i></i>
+          <div><strong>15%</strong><span>Lower forecasting RMSE</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Abstract interactive 3D data orb illustration">
+        <div class="visual-label label-top"><span class="tiny-square"></span> SYSTEM / 001 <span>LIVE VISUAL</span></div>
+        <div class="orb-scene" id="orbScene">
+          <div class="orb-glow"></div><div class="orb orb-back"></div>
+          <div class="orb-ring ring-one"></div><div class="orb-ring ring-two"></div><div class="orb-ring ring-three"></div>
+          <div class="orb-core"><div class="core-shine"></div><div class="core-grid"></div></div>
+          <div class="orb-node node-one"></div><div class="orb-node node-two"></div><div class="orb-node node-three"></div>
+          <div class="orbit-tag tag-ai"><span class="tag-dot"></span> MACHINE LEARNING</div>
+          <div class="orbit-tag tag-data"><span class="tag-dot"></span> DATA → INSIGHT</div>
+          <div class="orbit-tag tag-build"><span class="tag-dot"></span> BUILD / SHIP</div>
+        </div>
+        <div class="visual-footer"><span>FIG. 01 — A SYSTEMS-THINKING MINDSET</span><span>SCROLL TO EXPLORE ↓</span></div>
+      </div>
+      <div class="hero-bottomline"><span>DATA SCIENCE</span><span>—</span><span>MACHINE LEARNING</span><span>—</span><span>AI AUTOMATION</span><span>—</span><span>SOFTWARE</span></div>
+    </section>
+
+    <section class="section-shell section-block" id="work">
+      <div class="section-heading reveal"><div><div class="section-kicker">01 / SELECTED WORK</div><h2>Projects with a <span class="gradient-text">point of view.</span></h2></div><p>Python, SQL, Power BI, and machine learning applied to analytical and engineering questions. Each project shows its method, tools, and reported results.</p></div>
+      <div class="filter-row reveal" id="projectFilters" role="group" aria-label="Filter projects"></div>
+      <div class="project-toolbar"><p class="filter-status" id="filterStatus" aria-live="polite" aria-atomic="true">Showing all 6 projects</p><aside class="shortlist-summary" aria-live="polite"><span class="shortlist-dot" aria-hidden="true"></span><span id="shortlistStatus">No saved projects</span><button id="clearShortlist" type="button" hidden>Clear</button></aside></div>
+      <div class="shortlist-list" id="shortlistList" aria-label="Saved project shortlist"></div>
+      <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+      <template id="projectArt-segmentation"><div class="project-art art-segmentation"><div class="art-top"><span>ANALYTICS / 001</span><span>PYTHON</span></div><div class="cluster-visual"><span class="cluster c1"></span><span class="cluster c2"></span><span class="cluster c3"></span><span class="cluster c4"></span><span class="cluster c5"></span><span class="cluster c6"></span><div class="cluster-axis"></div><div class="cluster-caption">CUSTOMER<br>COHORT MAP</div></div><span class="art-index"></span></div></template>
+      <template id="projectArt-retail"><div class="project-art art-retail"><div class="art-top"><span>ANALYTICS / 002</span><span>EDA</span></div><div class="bar-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-axis"><span>TRANSACTIONS</span><span>10 MALLS</span></div><span class="art-index"></span></div></template>
+      <template id="projectArt-dashboard"><div class="project-art art-dashboard"><div class="art-top"><span>BI / 003</span><span>POWER BI</span></div><div class="dashboard-ui"><div class="dash-side"></div><div class="dash-content"><div class="dash-kpis"><i></i><i></i><i></i></div><div class="dash-graph"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><div class="dash-lower"><i></i><i></i></div></div></div><span class="art-index"></span></div></template>
+      <template id="projectArt-task"><div class="project-art art-task"><div class="art-top"><span>PRODUCT / 004</span><span>FULL STACK</span></div><div class="task-window"><div class="task-window-top"><span></span><span></span><span></span><b>workspace / tasks</b></div><div class="task-item"><i></i><span>Research sprint</span><b>DONE</b></div><div class="task-item"><i></i><span>Review dataset</span><b>IN PROGRESS</b></div><div class="task-item"><i></i><span>Ship dashboard</span><b>UP NEXT</b></div></div><span class="art-index"></span></div></template>
+      <template id="projectArt-security"><div class="project-art art-security"><div class="art-top"><span>SECURITY / 005</span><span>RBAC</span></div><div class="security-lock"><div class="lock-shackle"></div><div class="lock-body"><span>&#10003;</span></div></div><div class="security-lines"><i></i><i></i><i></i></div><span class="art-index"></span></div></template>
+      <template id="projectArt-energy"><div class="project-art art-energy"><div class="art-top"><span>FORECASTING / 006</span><span>TIME SERIES</span></div><div class="energy-plot"><svg viewBox="0 0 340 150" role="img" aria-label="Illustrative time-series chart"><path d="M0 120 C20 110 25 80 45 95 S70 120 90 75 S120 100 140 55 S170 72 190 48 S220 70 240 30 S270 48 290 20 S320 35 340 10" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M0 120 C20 110 25 80 45 95 S70 120 90 75 S120 100 140 55 S170 72 190 48 S220 70 240 30 S270 48 290 20 S320 35 340 10 L340 150 L0 150Z" fill="currentColor" opacity=".08"/></svg><span>ENERGY DEMAND / BANGLADESH</span></div><span class="art-index"></span></div></template>
+      <p class="small-note">Metrics reflect the supplied CV; forecasting figures are labelled as reported where applicable.</p>
+    </section>
+
+    <section class="research-section section-block" id="research">
+      <div class="section-shell">
+        <div class="section-heading reveal"><div><div class="section-kicker">02 / RESEARCH & PUBLICATIONS</div><h2>Questions worth <span class="gradient-text">investigating.</span></h2></div><p>Research at the intersection of machine learning, forecasting, computer vision, and real-world data.</p></div>
+        <div class="research-list">
+          <article class="research-item reveal"><div class="research-number">R/01</div><div class="research-main"><div class="research-meta"><span class="pub-label">IEEE · COMPAS 2025</span><span>Time-series forecasting</span></div><h3>Comparative Forecasting of Sustainable and Green Energy Demand Across Bangladesh’s Divisions</h3><p>Hybrid LSTM–XGBoost forecasting, engineered features, and an optimised ETL pipeline; the CV reports a 15% reduction in RMSE.</p></div><div class="research-arrow">↗</div></article>
+          <article class="research-item reveal"><div class="research-number">R/02</div><div class="research-main"><div class="research-meta"><span class="pub-label">IEEE · QPAIN 2025</span><span>Computer vision</span></div><h3>REMP: A Swin Transformer-Powered Approach to Classifying Rare and Endangered Medicinal Plants</h3><p>Transformer-based plant classification, with reported precision improvement of 10–12% over CNN baselines.</p></div><div class="research-arrow">↗</div></article>
+          <article class="research-item reveal"><div class="research-number">R/03</div><div class="research-main"><div class="research-meta"><span class="pub-label">Springer · ICIDA 2024</span><span>Agricultural AI</span></div><h3>Detection of Sugarcane Leaf Diseases Using Custom CNN and ResNet50</h3><p>Compared a custom CNN with fine-tuned ResNet50 using transfer learning and image augmentation; reported 92% accuracy.</p></div><div class="research-arrow">↗</div></article>
+          <article class="research-item reveal"><div class="research-number">R/04</div><div class="research-main"><div class="research-meta"><span class="pub-label">Springer · ICIDA 2024</span><span>Predictive modelling</span></div><h3>Earthquake Magnitude Prediction: A Survey on Machine Learning Models, Datasets, Techniques, Challenges, and Future Directions</h3><p>Benchmarked six machine-learning models and compared their performance using RMSE and MAE.</p></div><div class="research-arrow">↗</div></article>
+        </div>
+        <div class="research-foot reveal"><span class="status-dot"></span> Interested in research collaboration, applied ML, and graduate study opportunities.</div>
+      </div>
+    </section>
+
+    <section class="services-section section-block" id="services"><div class="section-shell">
+      <div class="section-heading reveal"><div><div class="section-kicker">03 / HOW I CAN HELP</div><h2>Useful work, from <span class="gradient-text">question to delivery.</span></h2></div><p>Practical support for teams that need clearer evidence, tested models, or better-connected workflows.</p></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><span>01 / ANALYSE</span><h3>Data analysis &amp; reporting</h3><p>Clean and explore datasets, find meaningful patterns, and communicate results through concise reports and Power BI dashboards.</p><div>Python · SQL · Power BI</div></article>
+        <article class="service-card reveal"><span>02 / MODEL</span><h3>Applied machine learning</h3><p>Build and evaluate forecasting, classification, and computer vision workflows with transparent metrics and reproducible experiments.</p><div>Scikit-learn · TensorFlow · PyTorch</div></article>
+        <article class="service-card reveal"><span>03 / AUTOMATE</span><h3>AI &amp; workflow automation</h3><p>Map repetitive processes and prototype useful automations that connect tools, reduce manual steps, and keep people in control.</p><div>Python · n8n · APIs</div></article>
+        <article class="service-card reveal"><span>04 / BUILD</span><h3>Data-backed software</h3><p>Develop focused web interfaces, REST APIs, and database-backed tools that make an analysis or workflow usable.</p><div>JavaScript · React · SQL</div></article>
+      </div>
+    </div></section>
+
+    <section class="section-shell section-block about-section" id="about">
+      <div class="about-visual reveal"><div class="about-frame"><div class="about-orbit"></div><div class="about-initials">TJ<span>.</span></div><div class="about-frame-label">DATA × DESIGN × SYSTEMS</div><div class="about-coordinate">23°45' N<br>90°25' E</div></div><div class="about-stamp">CURIOUS<br>BY DESIGN <span>✳</span></div></div>
+      <div class="about-copy reveal"><div class="section-kicker">04 / A LITTLE ABOUT ME</div><h2>Analytical by nature.<br><span class="gradient-text">Practical by design.</span></h2><p class="about-lead">I’m a Computer Science and Engineering graduate from East West University, specialising in Data Science and Machine Learning.</p><p>My work spans data analysis, predictive modelling, computer vision, time-series forecasting, and software development. I enjoy translating messy data and complex technical ideas into clear insights and usable systems.</p><p>Alongside technical work, I’m developing skills in AI automation and workflow design—with an eye toward solutions that are maintainable, measurable, and genuinely useful.</p>
+        <div class="timeline"><div class="timeline-item"><span class="timeline-date">2026</span><div><strong>Data & Machine Learning Intern</strong><span>Krabe Bangladesh Limited · Dhaka</span></div></div><div class="timeline-item"><span class="timeline-date">2025</span><div><strong>BSc in Computer Science & Engineering</strong><span>East West University · Data Science & ML</span></div></div><div class="timeline-item"><span class="timeline-date">NOW</span><div><strong>AI Automation Engineering</strong><span>Creative IT Institute · In progress</span></div></div></div>
+        <a class="button button-outline resume-about" href="assets/Tansiv_Jubayer_CV.pdf" download>Download my CV <span aria-hidden="true">↓</span></a>
+        <a class="text-link" href="https://drive.google.com/file/d/11fP1mPvLBAXlr3eKy1H2Z5L882gc1UUb/view?usp=sharing" target="_blank" rel="noreferrer">View data analytics certificate <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="skills-section section-block" id="skills"><div class="section-shell">
+      <div class="section-heading reveal"><div><div class="section-kicker">05 / CAPABILITIES</div><h2>The toolkit behind <span class="gradient-text">the work.</span></h2></div><p>A practical mix of analytical methods, engineering tools, and communication-oriented delivery.</p></div>
+      <div class="skills-layout" id="skillsGrid"></div>
+      <div class="cert-strip reveal"><div><span class="section-kicker">CONTINUOUS LEARNING</span><h3>Learning is part of the workflow.</h3></div><div class="cert-items"><a href="https://drive.google.com/file/d/11fP1mPvLBAXlr3eKy1H2Z5L882gc1UUb/view?usp=sharing" target="_blank" rel="noreferrer"><span>2026</span>Data Analytics Job Ready Program <b>↗</b></a><a href="https://drive.google.com/file/d/1f6-kuCbqQ7bJHp-lymBsmbpD1llY-iov/view?usp=sharing" target="_blank" rel="noreferrer"><span>2025</span>NLP & Text Mining <b>↗</b></a><a href="https://drive.google.com/file/d/11RS4Ok9WdA61_skG5t_y7-Q-gaa3CK7N/view?usp=drive_link" target="_blank" rel="noreferrer"><span>2026</span>Project Management 101 <b>↗</b></a></div></div>
+    </div></section>
+
+    <section class="contact-section section-block" id="contact"><div class="section-shell contact-layout">
+      <div class="contact-copy reveal"><div class="section-kicker">06 / LET’S CONNECT</div><h2>Have a good<br>problem? <span class="gradient-text">Let’s solve it.</span></h2><p>Hiring for a Data Analyst, Data Engineer, or Machine Learning Engineer? I’m open to full-time opportunities, research collaboration, and scoped project work. Email is the quickest way to reach me.</p><div class="contact-links"><a href="mailto:jtansiv@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL</small>jtansiv@gmail.com</span><b>↗</b></a><a href="tel:+8801837011572"><span class="contact-icon">☎</span><span><small>PHONE</small>+880 1837-011572</span><b>↗</b></a><a href="https://www.linkedin.com/in/tansiv-jubayer/" target="_blank" rel="noreferrer"><span class="contact-icon">in</span><span><small>LINKEDIN</small>Connect professionally</span><b>↗</b></a><a href="https://github.com/Tansiv" target="_blank" rel="noreferrer"><span class="contact-icon">⌘</span><span><small>GITHUB</small>Explore the code</span><b>↗</b></a></div></div>
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-heading"><span class="status-dot"></span><span>START A CONVERSATION</span><span class="form-code">FORM / 001</span></div>
+        <label for="name">Your name</label><input id="name" name="name" autocomplete="name" required maxlength="100" aria-describedby="nameError" placeholder="e.g. Alex Morgan"><span class="error-hook" id="nameError"></span>
+        <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="emailError" placeholder="alex@company.com"><span class="error-hook" id="emailError"></span>
+        <label for="topic">What would you like to discuss?</label><select id="topic" name="topic"><option>Data analytics</option><option>Machine learning / AI</option><option>Research collaboration</option><option>Automation</option><option>Something else</option></select>
+        <label for="message">A little context</label><textarea id="message" name="message" rows="4" required maxlength="5000" aria-describedby="messageError" placeholder="Tell me what you're working on..."></textarea><span class="error-hook" id="messageError"></span>
+        <button class="button button-primary form-submit" type="submit"><span class="button-label">Send message</span><span class="form-spinner" aria-hidden="true"></span><span aria-hidden="true">&#8599;</span></button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite" aria-atomic="true">No backend is connected, so submitting opens a prepared email in your email app. You can also email me directly at jtansiv@gmail.com.</p>
+      </form>
+    </div></section>
+  </main>
+<footer class="site-footer" aria-labelledby="footerTitle">
+  <div class="section-shell footer-grid">
+    <div class="footer-intro">
+      <a class="brand brand-header footer-brand" href="#home" aria-label="Tansiv Jubayer home">
+        <svg class="brand-monogram" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <defs><linearGradient id="footerLogoGradient" x1="8" y1="7" x2="42" y2="43" gradientUnits="userSpaceOnUse"><stop stop-color="#a7ffcf"/><stop offset=".52" stop-color="#84cfff"/><stop offset="1" stop-color="#8a7dff"/></linearGradient></defs>
+          <rect x="1" y="1" width="46" height="46" rx="13" fill="#10131d" stroke="url(#footerLogoGradient)" stroke-width="1.5"/>
+          <path d="M12 13.5h19M21.5 13.5v21" stroke="#f0f2f8" stroke-width="4.5" stroke-linecap="round"/>
+          <path d="M35.5 14v17.2c0 4.7-2.4 7.2-6.8 7.2-3.3 0-5.6-1.4-6.9-4.1" fill="none" stroke="url(#footerLogoGradient)" stroke-width="4.5" stroke-linecap="round"/>
+          <circle cx="36" cy="13.2" r="2.2" fill="#a7ffcf"/>
+        </svg>
+        <span class="brand-identity">
+          <span class="brand-name">TANSIV JUBAYER</span>
+          <span class="brand-role">Data &middot; AI &middot; Research</span>
+        </span>
+      </a>
+      <p id="footerTitle">Independent data and AI practice for rigorous research, useful systems, and measurable outcomes.</p>
+      <a class="footer-email" href="mailto:jtansiv@gmail.com">jtansiv@gmail.com <span aria-hidden="true">&#8599;</span></a>
+    </div>
+
+    <div class="footer-column">
+      <p class="footer-label">Explore</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#work">Selected work</a>
+        <a href="#research">Research</a>
+        <a href="#about">Profile</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Capabilities</a>
+      </nav>
+    </div>
+
+    <div class="footer-column">
+      <p class="footer-label">Connect</p>
+      <nav class="footer-nav" aria-label="Professional links">
+        <a href="https://github.com/Tansiv" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+        <a href="https://www.linkedin.com/in/tansiv-jubayer/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">&#8599;</span></a>
+        <a href="#contact">Start a conversation</a>
+      </nav>
+    </div>
+
+    <div class="footer-status">
+      <p class="footer-label">Research location</p>
+      <p>Dhaka, Bangladesh<br><span>Available for data, AI, and research collaboration.</span></p>
+      <a class="footer-top-link" href="#home">Back to top <span aria-hidden="true">&#8593;</span></a>
+    </div>
+  </div>
+
+  <div class="section-shell footer-legal">
+    <span>&copy; <span id="year"></span> Tansiv Jubayer</span>
+    <span>Data, AI &amp; product engineering</span>
+    <span>Built for research and meaningful work</span>
+  </div>
+</footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
