@@ -1,216 +1,195 @@
-<div align="center">
+﻿# Tansiv Jubayer | Data, AI & Product Engineering
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=C8962C&height=200&section=header&text=Tansiv%20Jubayer&fontSize=60&fontColor=F2EAD3&fontAlignY=38&desc=Portfolio%20Website&descAlignY=58&descSize=22&animation=fadeIn" width="100%"/>
+A responsive, single-page professional portfolio for **Tansiv Jubayer**, a data analyst and machine learning practitioner based in Dhaka, Bangladesh. The site presents selected work, research, technical capabilities, and a contact path in a polished, accessible interface.
 
-<!-- Typing Animation -->
-<a href="https://github.com/Tansiv/Tansiv_Jubayer_portfolio-website">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=C8962C&center=true&vCenter=true&width=700&lines=Data+Analyst+%7C+AI+Professional;Computer+Science+Engineer;Published+in+Springer+%26+IEEE;Open+to+Industry+%7C+PhD+%7C+Research" alt="Typing SVG" />
-</a>
+The project is built with semantic HTML, modern CSS, and vanilla JavaScript. It has no framework, build process, or package installation requirement.
 
-<br/>
+## Live experience
 
-<!-- Profile Views + Stars + Forks -->
-<img src="https://komarev.com/ghpvc/?username=Tansiv&style=for-the-badge&color=C8962C&label=Profile+Views" alt="profile views"/>
-&nbsp;
-<img src="https://img.shields.io/github/stars/Tansiv/Tansiv_Jubayer_portfolio-website?style=for-the-badge&color=C8962C&labelColor=0A0A0A" alt="stars"/>
-&nbsp;
-<img src="https://img.shields.io/github/forks/Tansiv/Tansiv_Jubayer_portfolio-website?style=for-the-badge&color=E8B84B&labelColor=0A0A0A" alt="forks"/>
+The portfolio includes:
 
-</div>
+- A professional header identity with a custom **TJ** monogram, prominent name, and research focus
+- A headshot-led hero section with an interactive, 3D-inspired data orb
+- Dynamically rendered project cards, skill groups, and category filters
+- Accessible project case-study dialogs with challenge, approach, outcome, stack, and source links
+- A persistent project shortlist visitors can save locally and reopen during their visit
+- Research, profile, certification, and contact sections
+- Light and dark themes with a saved visitor preference
+- Scroll progress, section reveals, polished hover states, and reduced-motion support
+- Keyboard-accessible quick navigation with Ctrl/Cmd + K
+- A responsive mobile menu and layouts for phones, tablets, and desktops
+- A professional multi-column footer with navigation, professional links, location, and collaboration status
+- Optional asynchronous n8n form submission with loading, success, and error states
+- SEO metadata, Open Graph metadata, a Person JSON-LD schema, favicon, and accessible controls
 
----
+## Technology
 
-<div align="center">
+| Area | Implementation |
+| --- | --- |
+| Structure | Semantic HTML5 |
+| Presentation | CSS custom properties, Grid, Flexbox, gradients, transitions, media queries |
+| Interactivity | Vanilla JavaScript with DOM APIs |
+| Rendering | Data-driven project and technical-skill models |
+| Motion | CSS animations, pointer parallax, IntersectionObserver |
+| Form delivery | Mail client fallback or HTTPS n8n webhook |
+| Assets | Local optimized profile photo and SVG favicon |
 
-## 🌐 Live Preview
+## Project structure
 
-### 🔗 [**tansiv.github.io/Tansiv_Jubayer_portfolio-website**](https://tansiv.github.io/Tansiv_Jubayer_portfolio-website/)
+~~~text
+.
+|-- index.html          # Semantic page structure and metadata
+|-- styles.css          # Theme tokens, layout, responsive styles, visual effects
+|-- script.js           # Data models, rendering, navigation, theme, form logic
+|-- assets/
+|   |-- my_photo.jpg    # Optimized primary headshot used by the hero
+|   |-- my_photo.png    # Original headshot source
+|   '-- favicon.svg     # Browser favicon
+'-- README.md
+~~~
 
-_A fully responsive, dark-themed single-page portfolio — built with pure HTML, CSS & JS._
+## Run locally
 
-</div>
+Because this is a static website, you can open **index.html** directly in a browser. A local server is preferred because it behaves more like a deployed website.
 
----
-
-## ✨ What's Inside
-
-```
-Tansiv_Jubayer_portfolio-website/
-│
-├── 📄 index.html          → Single-file portfolio (all CSS + JS inline)
-├── 📁 assets/
-│   ├── 🖼️  Tansiv_Jubayer.jpg   → Profile photo
-│   └── 📄 cv.pdf                → Downloadable CV
-└── 📖 README.md           → You are here
-```
-
----
-
-## 🎨 Design Highlights
-
-<div align="center">
-
-| Feature | Detail |
-|---|---|
-| 🎨 **Theme** | Dark luxury — Black `#0A0A0A` + Gold `#C8962C` |
-| 🔤 **Fonts** | Playfair Display · DM Sans · JetBrains Mono |
-| 📱 **Responsive** | Mobile, Tablet & Desktop — full breakpoint coverage |
-| ⚡ **Performance** | Zero dependencies · No build step · ~1 file |
-| ♿ **Accessible** | Semantic HTML5 · ARIA-friendly · Keyboard navigable |
-
-</div>
-
----
-
-## 🗂️ Sections at a Glance
-
-```
-🏠  Hero          →  Name, title, stats, social links, profile photo
-👤  About         →  Bio, career objective, team profile
-🛠️  Skills        →  Programming, ML/DL, Data Analysis, Research Methods
-📚  Research      →  4 peer-reviewed publications (Springer + IEEE)
-🎓  Education     →  EWU B.Sc. CSE · Ideal College · Motijheel Model
-🏆  Certifications →  Springer/IEEE authorship · Ostad · Simplilearn
-✍️  Blog          →  Coming-soon articles on AI & Data Science
-📊  Impact        →  Bento grid — 98.46% accuracy · 40% efficiency gain
-🤝  References    →  3 faculty letters — EWU Dept. of CSE
-📬  Contact       →  Email · Phone · LinkedIn · GitHub · Scholar
-```
-
----
-
-## 🚀 Animations & Interactions
-
-<div align="center">
-
-| Animation | Where |
-|---|---|
-| 🌀 **Rotating gradient ring** | Profile photo border |
-| 💛 **Glow pulse** | Profile image halo |
-| 🔢 **Counting numbers** | Hero stats (0 → target on scroll) |
-| 📊 **Skill bars** | Proficiency section — fills on scroll |
-| 🃏 **Reveal on scroll** | Every card & section fades in |
-| 🍃 **Floating icons** | Highlight card icons |
-| 🔵 **Pulse dot** | "Available" availability badge |
-| 🖱️ **Hover lifts** | Cards, buttons, nav links |
-| 📈 **Progress bar** | Top scroll indicator |
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white)
-![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-</div>
-
-> **Zero frameworks. Zero build tools. Zero npm.** Just one polished HTML file — open it and it works.
-
----
-
-## 📦 Deploy in 60 Seconds
-
-### GitHub Pages (Recommended)
-
-```bash
-# 1. Fork or clone this repository
-git clone https://github.com/Tansiv/Tansiv_Jubayer_portfolio-website.git
-
-# 2. Go to Settings → Pages → Source: main / root
-# 3. Your site is live at:
-#    https://tansiv.github.io/Tansiv_Jubayer_portfolio-website/
-```
-
-### Local Preview
-
-```bash
-# Option A — Python
+~~~bash
 python -m http.server 8000
-# Then open: http://localhost:8000
+~~~
 
-# Option B — VS Code
-# Install "Live Server" extension → Right-click index.html → Open with Live Server
-```
+Open [http://localhost:8000](http://localhost:8000) in your browser.
 
----
+Other static servers work as well, including the VS Code Live Server extension, Node.js **serve**, or a local web-server tool of your choice.
 
-## 🖼️ Customise Your Photo
+## Content architecture
 
-Open `index.html` and update the `src` on line ~265:
+Most recurring content is managed in **script.js**, so projects and skills can be updated without manually duplicating card markup in **index.html**.
 
-```html
-<!-- Replace with your photo path or URL -->
-<img id="profileImg" src="assets/YOUR_PHOTO.jpg" ... />
-```
+| Data model | Purpose |
+| --- | --- |
+| PROJECT_CATEGORIES | Filter options for the selected-work section |
+| PROJECTS | Project titles, descriptions, categories, stack, links, and impact metrics |
+| SKILL_GROUPS | Categorized technical capabilities |
+| COMMANDS | Quick-navigation destinations and labels |
 
-Or click the profile circle in the browser — an upload overlay appears on hover.
+The render functions create DOM elements with the platform APIs instead of injecting HTML strings. This keeps the data rendering readable and avoids unsafe HTML insertion.
 
----
+## Personalize the portfolio
 
-## 📄 Add Your CV PDF
+### Update text and links
 
-1. Place your PDF in the `assets/` folder
-2. Open `index.html` and find the `RESUME_PDF_PATH` variable (~line 640):
+- Update hero copy, research, profile, and contact content in **index.html**.
+- Update project and technical-skill data at the top of **script.js**.
+- Update professional URLs in the header, contact section, footer, and JSON-LD schema together.
+- Keep claims, metrics, publications, and project links accurate before publishing.
 
-```js
-const RESUME_PDF_PATH = "assets/YOUR_CV.pdf";   // ← update this
-```
+### Update the profile photo
 
-> If left as `null`, the "Download CV" button auto-generates an ATS plain-text version.
+The primary hero image is:
 
----
+~~~text
+assets/my_photo.jpg
+~~~
 
-## 📚 My Publications
+Replace this file with a square, well-lit portrait. Preserve the filename or update the image path in **index.html**. The width, height, eager-loading, async decoding, and high-priority settings are intentional for a stable, fast hero layout.
 
-| # | Title | Venue | Year |
-|---|---|---|---|
-| 1 | Detection of Sugarcane Leaf Diseases Using Custom CNN & ResNet50 | Springer LNNS (ICIDA 2024) | 2025 |
-| 2 | Earthquake Magnitude Prediction: A Survey | Springer LNNS (ICIDA 2024) | 2025 |
-| 3 | REMP: Swin Transformer for Rare Medicinal Plants — **98.46% acc.** | IEEE ICQPAI 2025 | 2025 |
-| 4 | Comparative Forecasting of Sustainable Energy in Bangladesh *(Lead)* | IEEE COMPAS 2025 | 2025 |
+### Update the visual system
 
----
+Core color, typography, and layout values live in the **:root** block in **styles.css**.
 
-## 📬 Connect With Me
+- --bg, --surface, and --surface2 control the dark visual layers.
+- --text, --muted, and --line control readable text and boundaries.
+- --accent, --accent2, and --pink control the highlight system.
+- --max controls the main content width.
 
-<div align="center">
+The existing theme toggle overrides these properties through the **body.light** class.
 
-[![Email](https://img.shields.io/badge/Email-jtansiv%40gmail.com-C8962C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jtansiv@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tansiv_Jubayer-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tansiv-jubayer-390081348/)
-[![GitHub](https://img.shields.io/badge/GitHub-Tansiv-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tansiv)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Tansiv_Jubayer-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Tansiv-Jubayer)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Tansiv_Jubayer-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=Z-1vaD8AAAAJ)
+## Contact form and n8n integration
 
-📍 Dhaka, Bangladesh · **Open to Relocation** · Available Immediately
+The contact form validates name, email, and message length in the browser. It provides inline field errors and accessible status messages.
 
-</div>
+### Default behavior
 
----
+**N8N_WEBHOOK_URL** is empty by default. In this state, a successful form submission opens a prepared email draft addressed to:
 
-## 📜 License
+~~~text
+jtansiv@gmail.com
+~~~
 
-```
-MIT License — free to use, modify, and distribute with attribution.
-© 2025 Tansiv Jubayer
-```
+This works without a database or backend, although visitors need a configured email application.
 
----
+### Enable n8n delivery
 
-<div align="center">
+1. Create an n8n workflow with a **Webhook** trigger that accepts POST.
+2. Configure the workflow to receive JSON and add your preferred processing steps, such as sending an email, saving a record, or creating a notification.
+3. Activate the workflow and copy its **production** webhook URL.
+4. In **script.js**, set the value below to that HTTPS URL:
 
-<!-- Footer wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=C8962C&height=120&section=footer&animation=fadeIn" width="100%"/>
+~~~js
+const N8N_WEBHOOK_URL = '';
+~~~
 
-_Made with ❤️ and a lot of ☕ — Dhaka, Bangladesh_
+5. Allow your deployed portfolio domain through the webhook's CORS configuration.
+6. Return a successful HTTP response when the message is accepted.
 
-**⭐ Star this repo if you found it useful!**
+The request body contains:
 
-</div>
+~~~json
+{
+  "name": "Visitor name",
+  "email": "visitor@example.com",
+  "topic": "Selected topic",
+  "message": "Visitor message",
+  "source": "personal-portfolio",
+  "submittedAt": "ISO-8601 timestamp"
+}
+~~~
+
+The interface disables the button while sending, aborts the request after 15 seconds, and restores the form state on success or failure.
+
+### Production guidance
+
+Do not store credentials, tokens, or private keys in **script.js**. A client-side webhook URL is publicly visible. Configure rate limiting, spam protection, server-side validation, and a protected intermediary endpoint if the workflow handles sensitive activity.
+
+## Deployment
+
+This is a static site. Deploy the project folder without a build command.
+
+### GitHub Pages
+
+1. Create a GitHub repository and place these files at its root.
+2. Push the project to the **main** branch.
+3. In the repository, open **Settings** > **Pages**.
+4. Select **Deploy from a branch**.
+5. Select the **main** branch and the **/(root)** folder, then save.
+6. After deployment, verify every external link, the headshot, the form flow, and mobile navigation on the published domain.
+
+### Other hosts
+
+Netlify, Cloudflare Pages, Vercel, Render Static Sites, and similar hosts can serve the directory directly. Set the publish directory to the project root and leave build settings empty.
+
+## Accessibility and performance
+
+- Semantic landmarks provide clear page structure.
+- A skip link lets keyboard users bypass repeated navigation.
+- Buttons and navigation controls include accessible names and state attributes.
+- The quick-navigation dialog supports keyboard search, arrow navigation, Enter, and Escape.
+- Motion is reduced for visitors who enable **prefers-reduced-motion**.
+- The profile image has an explicit size to reduce layout shift.
+- Scroll and pointer effects use requestAnimationFrame or passive listeners where appropriate.
+- Theme preference is saved locally when browser storage is available.
+
+## Pre-publish checklist
+
+- [ ] Confirm name, role, email, and professional links.
+- [ ] Check every project URL, publication statement, metric, and skill.
+- [ ] Replace or confirm the headshot in **assets/my_photo.jpg**.
+- [ ] Add the live n8n production webhook URL, or keep the email fallback.
+- [ ] Configure CORS and anti-spam measures before enabling webhook delivery.
+- [ ] Test keyboard navigation, quick navigation, theme switching, filters, and the contact form.
+- [ ] Test at phone, tablet, laptop, and wide-screen sizes.
+- [ ] Review title, description, Open Graph metadata, and the JSON-LD profile URL.
+- [ ] Add a custom domain and analytics only when they are ready to be maintained.
+
+## License
+
+This portfolio contains personal identity, professional history, and project material. Reuse the code only with appropriate attribution, and do not reuse the personal content, name, image, or claims without permission.
